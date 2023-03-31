@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("*****  REGEX Practice Problem  *****");
-            Valid valid = new Valid();
-            valid.Filename();
+            Website website = new Website();
+            website.Format();
         }
     }
 }
