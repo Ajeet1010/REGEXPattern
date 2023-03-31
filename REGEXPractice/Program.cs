@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("*****  REGEX Practice Problem  *****");
-            LowerCase lowerCase = new LowerCase();
-            lowerCase.Underscore();
+            Valid valid = new Valid();
+            valid.Filename();
         }
     }
 }
